@@ -29,7 +29,7 @@ void push (int value) {
 
 int pop() {
     if (head == NULL) {
-        printf("Underflow");
+        printf("Underflow!");
         exit(1);
     }
 
